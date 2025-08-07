@@ -1,1 +1,28 @@
+#THE CAI TRIAD (CONFIDENTIALITY, INTERGRITY,AVAILABILITY)
+The CAI is an abbreviation for data sensitivity in cybersecurity 
 
+#C - CONFIDENTIALITY:This ensures that sensitive data is not accesed by
+unauthorized users
+
+✅ Real-world Examples:
+Using passwords to access your email
+Encrypting files so hackers can’t read them
+Using VPNs to hide data from attackers
+
+#I -INTERGRITY: It ensures the accuracy of data,and unmodified data
+✅ Real-world Examples:
+A bank transaction must not be altered in transit
+A file downloaded must not be corrupted
+
+#A - AVAILABILITY:Ensuring that data is available when needed;
+without interruption
+✅ Real-world Examples:
+You can access your cloud files anytime
+Websites stay online during peak hours
+
+#WHY IT MATTERS 
+The CIA Triad helps cybersecurity professionals evalutale risk and design 
+security measures
+A secure system must address all three elements
+Focusing on one (like confidentaility) while ignoring another
+(like availabilty) leads to weakness

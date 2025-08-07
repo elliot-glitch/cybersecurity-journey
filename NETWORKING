@@ -1,3 +1,55 @@
+#✅ 1.1 What Is a Network?
+A network is a group of devices (computers, phones, servers, printers) connected together to share data and resources.
+LAN (Local Area Network) – Small area (e.g., home, office)
+WAN (Wide Area Network) – Large area (e.g., the internet)
+VPN (Virtual Private Network) – Secure connection through a public network
+
+
+
+#AN IP ADDRESS
+An IP address (Internet Protocol address) is a unique identifier for a device on a network. 
+It lets devices send and receive data — just like how a mailing address allows the post office to deliver letters
+
+
+🔹 Two Versions of IP Addresses
+1. IPv4 (Most common)
+Format: xxx.xxx.xxx.xxx (e.g., 192.168.1.1)
+Each “xxx” is a number from 0–255
+Total: ~4.3 billion possible addresses
+Example: 172.217.14.206 → a Google server
+
+
+#IPv6 (Next-gen, more addresses)
+Format: hexadecimal, separated by :
+e.g., 2001:0db8:85a3:0000:0000:8a2e:0370:7334
+Supports 340 undecillion addresses (massive)
+Slowly replacing IPv4 due to address exhaustion
+
+
+
+🔸 Subnetting (Intro)
+A subnet divides a large network into smaller ones.
+IP address: 192.168.1.100
+Subnet mask: 255.255.255.0 (or /24)
+That means all IPs from 192.168.1.1 to 192.168.1.254 are on the same network
+
+
+
+#CYBERSECURITY RELEVENANCE
+| Use Case                      | How IPs Matter                             |
+| ----------------------------- | ------------------------------------------ |
+| **Firewall rules**            | Allow/deny traffic based on IP address     |
+| **Log analysis**              | Identify suspicious IPs in server logs     |
+| **DDoS defense**              | Block/trace attacker IPs                   |
+| **Network scanning**          | Nmap and tools target IP ranges            |
+| **Geolocation**               | Track approximate origin of attackers      |
+| **Blacklisting/Whitelisting** | IP reputation services (e.g., abuse IP DB) |
+
+
+
+
+
+
 #Networking Security Fundamentals
 The OSI Model (Open Systems Interconnection Model) is a conceptual framework used to understand and describe how data moves through a network, from one device to another.
 It breaks networking into 7 layers, each with a specific role. This makes it easier to troubleshoot, secure, and design networks.

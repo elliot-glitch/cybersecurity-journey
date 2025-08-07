@@ -1,0 +1,31 @@
+#WHAT IS PHISING?
+Phising is a type of social engeineering attack where an attacker tricks
+a victim into revealing sensitive information(like passwords, credit card numbers
+or personal details or downloading malicious software.
+The attcker usually impersonates a trusted source (iike a bank,company,
+or colleagues) and uses psychological manipulation to create a sense ofurgency or
+trust 
+
+
+#HOW PHISING WORKS
+1.Bait - The attacker sends a fake message (email,SMS,chat, etc.)that looks
+legitimate 
+2.Hook - The message tricks the victim into clicking a link,downloading an
+attachment or entering credentials on a fake site 
+3.Catch -The attacker collects the stolen data or infects the victi's system
+
+TYPES OF PHISHING ATTACKS 
+1.EmailPhishing 
+Uses fake emails designed to look like they come from trusted sources
+2.Spearphising
+Highly targeted phising aimed at a specific person or organization
+uses personal details to appear convincing
+Example: An attacker emails the finance manager pretending to be 
+the CEO requesting a wire transfer.
+3.Whaling 
+A form of spear phising that target high-profile individuals(like executives
+4.Smishing(SMS Phising)
+Delivered vial text message
+5.Vishing(Voice Phising)
+Phising over the phone
+example : An attacker pretends to be tech support and ask for logins

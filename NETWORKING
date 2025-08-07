@@ -1,1 +1,55 @@
+#Networking Security Fundamentals
+The OSI Model (Open Systems Interconnection Model) is a conceptual framework used to understand and describe how data moves through a network, from one device to another.
+It breaks networking into 7 layers, each with a specific role. This makes it easier to troubleshoot, secure, and design networks.
+# 🧠 OSI Model Cheat Sheet
 
+The **OSI Model** (Open Systems Interconnection Model) is a conceptual framework that standardizes the functions of a telecommunication or computing system into **7 layers**.
+
+## 📚 The 7 Layers of the OSI Model (Top to Bottom)
+
+| Layer | Name         | Description & Example Protocols                      |
+|-------|--------------|------------------------------------------------------|
+| 7     | Application  | Interfaces directly with the user (e.g., HTTP, FTP) |
+| 6     | Presentation | Formats data, encryption/decryption (e.g., SSL, JPEG) |
+| 5     | Session      | Maintains connections (e.g., NetBIOS, PPTP)          |
+| 4     | Transport    | Reliable delivery, error checking (e.g., TCP, UDP)   |
+| 3     | Network      | Routing and addressing (e.g., IP, ICMP)              |
+| 2     | Data Link    | MAC addressing, frame delivery (e.g., Ethernet, ARP) |
+| 1     | Physical     | Transmission of raw bits (e.g., cables, NICs)        |
+
+---
+
+## 🔐 Why It Matters in Cybersecurity
+
+- Helps pinpoint where network attacks happen (e.g., Layer 2 for ARP spoofing, Layer 7 for XSS)
+- Supports structured security design
+- Essential for working with tools like Wireshark, firewalls, IDS
+
+---
+
+## 🧠 Mnemonics
+
+- **Top to Bottom**: `All People Seem To Need Data Processing`
+- **Bottom to Top**: `Please Do Not Throw Sausage Pizza Away`
+
+---
+
+## ✅ Quick Reference
+
+- Layers 1–4: **Network-focused**
+- Layers 5–7: **User-focused**
+
+#HERE IS A REAL LIFE SENERIO ON HOW THE OSI MODEL WORKS 
+You open your browser and type the query into Google. Behind the scenes, this is how it flows through the OSI Model:
+| Layer                      | What Happens When You Press Enter                                                                                    |
+| -------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Layer 7 – Application**  | Your browser (Chrome, Firefox, etc.) sends an HTTP/HTTPS request to Google’s server.                                 |
+| **Layer 6 – Presentation** | The request is formatted properly (e.g., SSL/TLS encrypts the data for HTTPS).                                       |
+| **Layer 5 – Session**      | A secure session is established with Google’s server (e.g., via SSL/TLS handshake).                                  |
+| **Layer 4 – Transport**    | The data is broken into **TCP segments**, ensuring it will arrive reliably.                                          |
+| **Layer 3 – Network**      | The segments are assigned source and destination **IP addresses** (yours and Google’s).                              |
+| **Layer 2 – Data Link**    | Your computer’s **MAC address** is used to send the data across your local network to the router.                    |
+| **Layer 1 – Physical**     | The data is converted to **electrical signals** (Wi-Fi or Ethernet) and sent physically across cables or wirelessly. |
+
+
+🔁 Then the response (Google search results) comes back through the same layers in reverse, ending with your browser rendering the page.

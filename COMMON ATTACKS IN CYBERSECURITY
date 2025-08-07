@@ -14,3 +14,5 @@ goals :
 | XSS                | Inject malicious script into browser | `<script>alert(1)</script>` |
 | Privilege Escal.   | Gain higher access                   | Local exploit               |
 | Zero-Day           | Exploit unknown vulnerabilities      | Custom scripts              |
+Understanding these attacks is key to learning how they opereate and how to defend against them
+Will be explaning all attacks into details in the next chapter

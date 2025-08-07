@@ -104,4 +104,4 @@ You open your browser and type the query into Google. Behind the scenes, this is
 | **Layer 1 – Physical**     | The data is converted to **electrical signals** (Wi-Fi or Ethernet) and sent physically across cables or wirelessly. |
 
 
-🔁 Then the response (Google search results) comes back through the same layers in reverse, ending with your browser rendering the page.
+🔁 Then the response (Google search results) comes back through the same layers in reverse, ending with your browser rendering the page...

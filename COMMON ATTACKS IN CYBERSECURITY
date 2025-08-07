@@ -1,0 +1,16 @@
+#INTRODUCTION TO COMMON CYBER ATTACKS
+In cybersecurity,attackes use different techniques to exploit systems,
+steal data,or disrupt services.Here are some of the most common types and thier
+goals :
+| Attack Type        | Goal                             | Example Tool or Vector      |
+| ------------------ | ------------------------------------ | --------------------------- |
+| Phishing           | Steal sensitive info                 | Email or fake website       |
+| Malware            | Infect system                        | Trojan, Ransomware          |
+| Brute Force        | Crack passwords                      | Hydra, John the Ripper      |
+| Social Engineering | Exploit human trust                  | Impersonation               |
+| DDoS               | Overload a system                    | Botnet                      |
+| MitM               | Intercept communication              | Rogue Wi-Fi                 |
+| SQL Injection      | Access databases via web input       | `' OR 1=1 --`               |
+| XSS                | Inject malicious script into browser | `<script>alert(1)</script>` |
+| Privilege Escal.   | Gain higher access                   | Local exploit               |
+| Zero-Day           | Exploit unknown vulnerabilities      | Custom scripts              |

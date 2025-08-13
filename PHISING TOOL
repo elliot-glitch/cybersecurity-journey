@@ -1,0 +1,11 @@
+In this demostration i used a tool called ZPHISPHER
+This tool creates a fake page of any socail media handle and other related plateforms 
+The tool generates a link of the prefered hook
+This hook generates a link and this like is being sent to the victim 
+for instances, a gmail accout
+the link will containa an https of the copy of a normal gmail login page 
+after the victim clicks on the link, logins of the victim is sent back to the hacker 
+
+#https://github.com/navneeth31/phishing-attack-demo.git
+clone the repository 
+

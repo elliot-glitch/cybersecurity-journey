@@ -1,0 +1,43 @@
+The NIST Cybersecurity Framework (CSF) is a widely adopted set of guidelines
+best practices, and standards designed to help organizations manage and 
+reduce cybersecurity risks. Developed by the National Institute of Standards
+and Technology (NIST), the framework provides a flexible and voluntary
+approach to improving cybersecurity posture across industries.
+
+
+Key Components of the NIST CSF
+The framework is structured around three main parts:
+
+FRAMEWORK CORE
+
+A set of cybersecurity activities, outcomes, and references organized into five functions:
+Identify: Understand and manage cybersecurity risks to systems, assets, data, and capabilities.
+Protect: Implement safeguards to ensure the delivery of critical services.
+Detect: Develop capabilities to identify cybersecurity events.
+Respond: Take action regarding detected cybersecurity incidents.
+Recover: Restore capabilities or services impaired by cybersecurity incidents.
+Each function is further divided into categories and subcategories, providing actionable steps.
+Framework Implementation Tiers
+
+Describes the maturity of an organization's cybersecurity risk management practices:
+Tier 1 (Partial): Ad-hoc and reactive.
+Tier 2 (Risk-Informed): Risk management practices are approved but not standardized.
+Tier 3 (Repeatable): Formalized and consistently applied.
+Tier 4 (Adaptive): Proactive and continuously improved.
+Framework Profiles
+
+Customized to align with an organization's business needs, risk tolerance,
+and resources. Profiles help organizations compare their current 
+cybersecurity posture with their target state.
+
+PURPOSE AND BENEFITS 
+
+Risk Management: Helps organizations prioritize and mitigate cybersecurity risks.
+Compliance: Aligns with other standards like ISO 27001, CIS Controls, and regulatory requirements.
+Communication: Provides a common language for discussing cybersecurity risks and strategies.
+Flexibility: Adaptable to any industry or organization size.
+Who Uses the NIST CSF?
+Private Sector: Businesses of all sizes use the framework to improve cybersecurity.
+Government Agencies: Federal, state, and local governments adopt the framework for critical infrastructure protection.
+International Organizations: The framework is recognized and adopted globally.
+
